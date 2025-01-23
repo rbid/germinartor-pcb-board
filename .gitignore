@@ -1,3 +1,18 @@
 fp-info-cache
 germinator-pcb-board-backups/*
 germinator-pcb-board-gerbers/*
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+~*.lck
+\#auto_saved_files#
