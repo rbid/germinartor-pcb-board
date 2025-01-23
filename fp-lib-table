@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "germinator-pcb-board-libraries")(type "KiCad")(uri "${KIPRJMOD}/germinator-pcb-board-libraries")(options "")(descr ""))
+)

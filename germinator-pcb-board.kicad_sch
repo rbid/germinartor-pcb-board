@@ -2102,16 +2102,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 148.59 115.57 0)
+		(at 153.67 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "083a3afc-6bed-4a95-b1e0-ae53a4d55d47")
 		(property "Reference" "J6"
-			(at 151.13 114.2999 0)
+			(at 156.21 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2119,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 151.13 116.8399 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,8 +2127,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 115.57 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,7 +2137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 115.57 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,12 +2146,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 115.57 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "DS18B20 Temp Sensor"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2175,16 +2182,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 148.59 100.33 0)
+		(at 153.67 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b7c1ddd-24f7-43f0-aac2-35fd1e403e21")
 		(property "Reference" "J5"
-			(at 151.13 99.0599 0)
+			(at 156.21 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2199,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 151.13 101.5999 0)
+			(at 142.24 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,8 +2207,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 100.33 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 100.33 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,12 +2226,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 100.33 0)
+			(at 153.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "DS18B20 Temp Sensor"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2248,16 +2262,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 148.59 133.35 0)
+		(at 153.67 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b00afff-f13e-49f1-a26a-4709cb9aa407")
 		(property "Reference" "J7"
-			(at 151.13 132.0799 0)
+			(at 156.21 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2279,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 151.13 134.6199 0)
+			(at 142.24 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,8 +2287,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 133.35 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 153.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 133.35 0)
+			(at 153.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,12 +2306,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 133.35 0)
+			(at 153.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "DS18B20 Temp Sensor"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2321,16 +2342,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 148.59 63.5 0)
+		(at 153.67 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8f4783ec-ab6e-457f-b34c-170d6da5e194")
 		(property "Reference" "J3"
-			(at 151.13 63.4999 0)
+			(at 156.21 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2359,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 151.13 66.0399 0)
+			(at 156.21 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,8 +2367,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 63.5 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 63.5 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,12 +2386,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 63.5 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "Relay Terminal Block"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -2397,16 +2425,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
-		(at 229.87 130.81 0)
+		(at 246.38 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90f8cc30-a790-46ee-bf12-9a04a77cf578")
 		(property "Reference" "J1"
-			(at 231.14 129.5399 0)
+			(at 247.65 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2442,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15_Socket"
-			(at 231.14 132.0799 0)
+			(at 237.49 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 130.81 0)
+			(at 246.38 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 130.81 0)
+			(at 246.38 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,12 +2469,21 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated"
-			(at 229.87 130.81 0)
+			(at 246.38 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "ESP32 Left headers"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "13"
@@ -2506,16 +2542,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x15_Socket")
-		(at 198.12 130.81 0)
+		(at 219.71 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a064d6fb-c17d-4959-b49b-4c1c92dbaa60")
 		(property "Reference" "J2"
-			(at 199.39 129.5399 0)
+			(at 220.98 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2559,7 @@
 			)
 		)
 		(property "Value" "Conn_01x15_Socket"
-			(at 199.39 132.0799 0)
+			(at 210.82 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 130.81 0)
+			(at 219.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 130.81 0)
+			(at 219.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,12 +2586,20 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated"
-			(at 198.12 130.81 0)
+			(at 219.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "ESP32 Right headers"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -2615,16 +2658,15 @@
 	)
 	(symbol
 		(lib_id "ESP32-DEVKIT-V1:ESP32-DEVKIT-V1")
-		(at 220.98 73.66 0)
+		(at 219.71 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a333197d-e3f1-48e0-803f-c71caf831d1f")
 		(property "Reference" "U1"
-			(at 220.98 40.64 0)
+			(at 219.71 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2674,7 @@
 			)
 		)
 		(property "Value" "ESP32-DEVKIT-V1"
-			(at 220.98 43.18 0)
+			(at 219.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" "germinator-pcb-board-libraries:ESP32_DEVKIT_V1"
-			(at 220.98 73.66 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 73.66 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 73.66 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2710,7 @@
 			)
 		)
 		(property "MANUFACTURER" "DOIT"
-			(at 220.98 73.66 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,8 +2719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" ""
-			(at 220.98 73.66 0)
+		(property "Purpose" "ESP32 Controller"
+			(at 219.71 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,16 +2828,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 148.59 85.09 0)
+		(at 153.67 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b6223f73-4cc1-49ef-b0dc-587e34fa3920")
 		(property "Reference" "J4"
-			(at 151.13 83.8199 0)
+			(at 156.21 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2845,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 151.13 86.3599 0)
+			(at 156.21 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,8 +2853,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 85.09 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 85.09 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,12 +2872,20 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 85.09 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "DHT11 Humidity Sensor"
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2859,34 +2908,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 64.77 0)
+		(at 105.41 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ba48ffb3-b9ec-4a26-a443-e04407e67428")
 		(property "Reference" "R1"
-			(at 96.52 63.4999 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 96.52 66.0399 0)
+		(property "Value" "4.7 K"
+			(at 109.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.202 64.77 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 107.188 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 64.77 0)
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2950,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 64.77 0)
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "DS18B20 Temp Sensor Pullup"
+			(at 105.41 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,16 +2984,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 86.36 0)
+		(at 105.41 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e100731b-8bc2-44eb-895a-6074a7ba1dce")
 		(property "Reference" "R2"
-			(at 96.52 85.0899 0)
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,8 +3000,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 96.52 87.6299 0)
+		(property "Value" "10 K"
+			(at 111.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,8 +3009,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.202 86.36 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 107.188 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +3019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 86.36 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3028,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 86.36 0)
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" "DHT11 Pullup"
+			(at 105.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
