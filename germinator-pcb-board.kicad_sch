@@ -1557,24 +1557,6 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 15.24 25.4 180)
-					(length 5.08)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -15.24 -17.78 0)
 					(length 5.08)
@@ -2098,6 +2080,26 @@
 					)
 				)
 			)
+			(symbol "ESP32-DEVKIT-V1_1_0"
+				(pin power_out line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2195,6 +2197,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 125.73 110.49)
@@ -2213,6 +2311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f64c8e2-10b8-4698-a2af-c824241180ba")
+	)
+	(junction
+		(at 254 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ea1bf3-0559-43d5-8b2f-f0b472daa92a")
 	)
 	(junction
 		(at 97.79 90.17)
@@ -2540,16 +2644,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 38.1) (xy 254 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfc3217b-33e9-43ff-bc20-79b0595b514d")
-	)
-	(wire
-		(pts
 			(xy 101.6 57.15) (xy 121.92 57.15)
 		)
 		(stroke
@@ -2668,7 +2762,7 @@
 		)
 		(uuid "fbc19f42-f4d0-4aa3-920b-e44636b15dc4")
 	)
-	(label "D43"
+	(label "D34"
 		(at 246.38 81.28 0)
 		(effects
 			(font
@@ -2719,7 +2813,7 @@
 		(uuid "0d20a8cd-415a-48ab-adcd-e9c98db27421")
 	)
 	(label "Vcc"
-		(at 254 38.1 0)
+		(at 246.38 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +3192,7 @@
 		)
 		(uuid "ad3039a6-c45e-4788-91b4-7b024f973d0a")
 	)
-	(label "VCC"
+	(label "Vcc"
 		(at 236.22 152.4 180)
 		(effects
 			(font
@@ -4592,6 +4686,72 @@
 			(project "germinator-pcb-board"
 				(path "/bff22e99-e22b-4758-82e3-846916dce764"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 254 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1ab743-bd51-42cb-85d1-82599c482b4e")
+		(property "Reference" "#FLG02"
+			(at 254 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3480137d-0009-4932-808c-0be680ae10bf")
+		)
+		(instances
+			(project ""
+				(path "/bff22e99-e22b-4758-82e3-846916dce764"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
