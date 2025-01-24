@@ -497,6 +497,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VIN"
       }
     ]
   },
