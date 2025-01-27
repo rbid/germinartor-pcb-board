@@ -624,6 +624,8 @@
     ]
   ],
   "text_variables": {
+    "author": "Ricky Marek",
+    "date": "2025-01-27",
     "projectName": "Germinator PCB Board",
     "revision": "1.0"
   }
