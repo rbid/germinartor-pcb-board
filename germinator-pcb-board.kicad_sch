@@ -8,6 +8,7 @@
 		(title "${projectName}")
 		(date "2025-01-23")
 		(rev "${revision}")
+		(comment 1 "Sources: ${github}")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x15_Socket"
@@ -2700,9 +2701,19 @@
 		)
 		(uuid afa8a7af-138b-42e9-bad0-ee2c342d05df)
 	)
-	(text "Headers to the ESP32 for future use"
+	(text "Screw\nTerminal\nBlock"
 		(exclude_from_sim no)
-		(at 195.58 107.95 0)
+		(at 135.89 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "094fc45a-b90e-4ab5-ba30-aff5b8aa2b41")
+	)
+	(text "Headers future use"
+		(exclude_from_sim no)
+		(at 186.69 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,6 +2747,36 @@
 		)
 		(uuid "8ab94539-903c-4127-8263-5ed08fecf701")
 	)
+	(text "When using a KY-015\nor DHT11/DHT22 mounted\non a small PCB, then\nthe 10K pullup resistor\nis not needed"
+		(exclude_from_sim no)
+		(at 104.14 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cac6140-2dfa-4544-b7ab-4acafb131cfe")
+	)
+	(text "Screw\nTerminal\nBlock"
+		(exclude_from_sim no)
+		(at 135.89 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d5f46a2-bb64-4aef-970d-5f9a78b9d82d")
+	)
+	(text "Screw\nTerminal\nBlock"
+		(exclude_from_sim no)
+		(at 119.38 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a38af567-0cb1-4756-a03e-ed6b0b8f3ef4")
+	)
 	(text "Relay Terminal Block"
 		(exclude_from_sim no)
 		(at 90.17 165.1 0)
@@ -2748,17 +2789,15 @@
 		)
 		(uuid "adad2e82-8421-4a44-b1db-30376a571449")
 	)
-	(text "If using a KY-015 sensor, then\nthere is no need to mount this\npullup resistor"
+	(text "Screw\nTerminal\nBlock"
 		(exclude_from_sim no)
-		(at 102.87 147.32 0)
+		(at 143.51 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
-				(italic yes)
 			)
 		)
-		(uuid "cd0e6cf2-0d37-4bc2-ad9f-84ab1664777b")
+		(uuid "cfd0be90-5efa-4407-bf2d-30c877ee92ba")
 	)
 	(text "ESP32 DEV KIT V1"
 		(exclude_from_sim no)
@@ -2771,6 +2810,16 @@
 			)
 		)
 		(uuid "eb8c68b6-8f69-4b93-9a31-3da09b14eaf4")
+	)
+	(text "Screw\nTerminal\nBlock"
+		(exclude_from_sim no)
+		(at 135.89 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f273e957-0003-4a78-a8f7-ad3acc66319d")
 	)
 	(label "D34"
 		(at 233.68 81.28 0)
@@ -3498,7 +3547,7 @@
 			)
 		)
 		(property "Purpose" "DS18B20 Temp Sensor"
-			(at 129.54 60.96 0)
+			(at 129.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3775,7 @@
 			)
 		)
 		(property "Purpose" "DS18B20 Temp Sensor"
-			(at 129.54 81.28 0)
+			(at 129.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3942,7 @@
 		(dnp no)
 		(uuid "8f4783ec-ab6e-457f-b34c-170d6da5e194")
 		(property "Reference" "J3"
-			(at 113.03 176.5299 0)
+			(at 109.22 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,6 +3957,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
@@ -4370,7 +4420,7 @@
 		(dnp no)
 		(uuid "b6223f73-4cc1-49ef-b0dc-587e34fa3920")
 		(property "Reference" "J4"
-			(at 139.7 134.6199 0)
+			(at 135.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,12 +4429,13 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 139.7 137.1599 0)
+			(at 139.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
@@ -4414,8 +4465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purpose" "DHT11 Humidity Sensor"
-			(at 137.16 129.54 0)
+		(property "Purpose" "DHT11/DHT22/KY-015 Humidity Sensor"
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

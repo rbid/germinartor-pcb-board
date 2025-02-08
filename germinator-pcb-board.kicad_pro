@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -509,11 +509,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "germinator-pcb-board-gerbers/",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "plots/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -607,7 +607,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "germinator-pcb-board-gerbers/",
+    "plot_directory": "plots/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -626,6 +626,7 @@
   "text_variables": {
     "author": "Ricky Marek",
     "date": "2025-01-27",
+    "github": "https://github.com/rbid/germinartor-pcb-board",
     "projectName": "Germinator PCB Board",
     "revision": "1.0"
   }
